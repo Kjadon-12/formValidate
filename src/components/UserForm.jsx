@@ -107,7 +107,7 @@ export default function UserForm() {
 
       navigate("/user-data", { state: { data } });
     },
-    //validationSchema: formSchema,
+    validationSchema: formSchema,
   });
 
   const handleDateChange = (event) => {
